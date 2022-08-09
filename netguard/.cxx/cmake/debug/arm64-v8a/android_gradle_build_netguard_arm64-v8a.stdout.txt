@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\Projects\ProductivePro\netguard\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.

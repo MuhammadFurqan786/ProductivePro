@@ -1,0 +1,13 @@
+# ninja log v5
+1	2290	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/session.c.o	ea3d360d02ebeb23
+16	2406	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/icmp.c.o	772d9d8f047ea6b3
+23	2465	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/ip.c.o	f4bdec1b02482b2a
+26	2515	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/udp.c.o	f01ede6517fdd748
+20	2590	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/tcp.c.o	3c6f8b1e3c73b98
+13	2754	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/netguard.c.o	70592f6688de7a7d
+2294	3023	640138514	CMakeFiles/netguard.dir/src/main/jni/netguard/pcap.c.o	756f97a3a2a2f41d
+2515	3146	640138515	CMakeFiles/netguard.dir/src/main/jni/netguard/util.c.o	7669a4f7fcd0a7ae
+2466	3163	640138515	CMakeFiles/netguard.dir/src/main/jni/netguard/dhcp.c.o	25bb54bf36e17ba2
+2406	3209	640138515	CMakeFiles/netguard.dir/src/main/jni/netguard/dns.c.o	252da8436f06b32d
+3210	3402	640138515	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnetguard.so	b23cbd8bc671e6a7
+0	10	0	clean	250e0f425b1a58d2

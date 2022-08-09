@@ -1,0 +1,88 @@
+{
+  "stringTable": {
+    "0": "F:/Projects/ProductivePro/netguard/.cxx/cmake/play/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android22 --gcc-toolchain=C:/Users/ChFurqan/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ChFurqan/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnetguard_EXPORTS -I../../../../src/main/jni/netguard -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "F:\\Projects\\ProductivePro\\netguard\\CMakeLists.txt",
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\play\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\play\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "netguard-Release-arm64-v8a": {
+      "buildCommand": "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\play\\arm64-v8a\" netguard",
+      "buildType": "release",
+      "toolchain": "355151084",
+      "abi": "arm64-v8a",
+      "artifactName": "netguard",
+      "files": [
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\netguard.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\session.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\ip.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\tcp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\udp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\icmp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\dns.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\dhcp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\pcap.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "F:\\Projects\\ProductivePro\\netguard\\src\\main\\jni\\netguard\\util.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "F:\\Projects\\ProductivePro\\netguard\\build\\intermediates\\cmake\\play\\obj\\arm64-v8a\\libnetguard.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "355151084": {
+      "cCompilerExecutable": "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

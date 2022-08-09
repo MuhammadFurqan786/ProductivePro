@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp">
+
+    <ImageView
+        android:id="@+id/imgclose"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close_white_24dp"
+        app:tint="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <com.roughike.swipeselector.SwipeSelector
+            android:id="@+id/hours_selector"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1.8" />
+
+        <Button
+            android:id="@+id/sendButton"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:layout_weight="0.2"
+            android:background="@color/white"
+            android:text="Lock Selected App"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

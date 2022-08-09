@@ -1,0 +1,3 @@
+F:/Projects/ProductivePro/netguard/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+F:/Projects/ProductivePro/netguard/.cxx/cmake/debug/arm64-v8a/CMakeFiles/netguard.dir
+F:/Projects/ProductivePro/netguard/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844768871683",
+    "project_id": "freezeapp-cba08",
+    "storage_bucket": "freezeapp-cba08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844768871683:android:4768bd3f71675bacfed536",
+        "android_client_info": {
+          "package_name": "eu.faircode.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844768871683-6f1m68dh87tv6tsoqpn5hscc9es0ob60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRe0O09y8m0CP7wHA12p5kqFiO1NgRYaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844768871683-6f1m68dh87tv6tsoqpn5hscc9es0ob60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

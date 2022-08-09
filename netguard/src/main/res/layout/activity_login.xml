@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back!"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_45sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to your Account"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="#ccc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_toRightOf="@+id/ic_secondName"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/Orange"
+            app:boxStrokeWidth="1dp"
+            app:endIconMode="clear_text"
+            app:boxStrokeErrorColor="@color/Orange"
+            app:hintTextColor="@color/dark_gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_email"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:drawableTint="@color/Orange"
+                android:inputType="textCapSentences"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@color/dark_gray"
+                android:textSize="@dimen/_11sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/ic_secondName"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/Orange"
+            app:boxStrokeWidth="1dp"
+            app:endIconMode="password_toggle"
+            app:hintTextColor="@color/dark_gray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_confirmPassword"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint=" Password"
+                android:inputType="textPassword|textCapSentences"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@color/dark_gray"
+                android:textSize="@dimen/_11sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:layout_marginVertical="@dimen/_30sdp"/>
+        <TextView
+            android:id="@+id/forget_Pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget your password?"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_30sdp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/dont_Account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New to Productive Pro?"
+                android:textColor="#ccc"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/_11sdp" />
+            <TextView
+                android:id="@+id/tv_sign_Up"
+                android:layout_toRightOf="@+id/dont_Account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sign up"
+                android:textColor="@color/Orange"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/_11sdp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

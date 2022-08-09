@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:background="@drawable/bg_welcome"
+            android:layout_margin="@dimen/_20sdp">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_marginVertical="@dimen/_15sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/face"/>
+
+            <LinearLayout
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/img"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/greetings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good Evening"
+                    android:fontFamily="@font/akaya_regular"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/text_userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ethan"
+                    android:fontFamily="@font/akaya_regular"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/akaya_regular"
+                android:text="Do you want to being your journey to a more productive life?"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/started"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free Trial"
+                android:textScaleX="1.2"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/freeTrialed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free Trial"
+                android:textScaleX="1.2"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:onClick="MAin"/>
+            <Button
+                android:id="@+id/btn_monthly"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="Buy Premium"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:textScaleX="1.2"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

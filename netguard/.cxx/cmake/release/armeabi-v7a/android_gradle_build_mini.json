@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "F:\\Projects\\ProductivePro\\netguard\\CMakeLists.txt",
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "netguard-Release-armeabi-v7a": {
+      "artifactName": "netguard",
+      "buildCommand": "C:\\Users\\ChFurqan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\Projects\\ProductivePro\\netguard\\.cxx\\cmake\\release\\armeabi-v7a\" netguard",
+      "abi": "armeabi-v7a",
+      "output": "F:\\Projects\\ProductivePro\\netguard\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnetguard.so",
+      "runtimeFiles": []
+    }
+  }
+}
